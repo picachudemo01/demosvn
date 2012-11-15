@@ -5,6 +5,9 @@ class Hello extends Thread{
 			System.out.println("New thread");
 		}
 	}
+	public static void Xuat(){
+		System.out.print("Su thay doi mot");
+	}
 	public static void main(String[] as){
 		Hello tt=new Hello();
 		tt.start();
